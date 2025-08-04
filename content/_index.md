@@ -12,7 +12,14 @@ toc: false
 Currently defining developer experiences for Google Cloud's Migration Center portfolio.
 
 ### Prior to Google:
-![landscape](https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-1024x376.jpg/250/250)
+<!-- ![Microsoft Logo](/images/microsoft_logo.jpeg)
+![GCP Logo](images/gcp_logo.png) -->
+
+{{< cards >}}
+  {{< card link="/" title="Microsoft IDC" image="/images/microsoft_logo.jpeg" subtitle="Unsplash Landscape" >}}
+  {{< card link="/" title="Local Image" image="images/gcp_logo.png" subtitle="Raw image under static directory." >}}
+  {{< card link="/" title="Local Image" image="images/gcp_logo.png" subtitle="Image under assets directory, processed by Hugo." method="Resize" options="600x q80 webp" >}}
+{{< /cards >}}
 
 ### Featured Work
 {{< cards >}}
